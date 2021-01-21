@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: serif;
+}
+
+#app {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 640px) {
+
+#app h1 {
+  width: 260px;
+  background: linear-gradient(transparent 70%,#FF3333 );
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  word-break: break-word;
+}
+
+
+thead th {
+  border-bottom: 2px solid #FF6666; 
+  color: #FF6666;
+  
+ }
+
+ th {
+  padding: 0 8px;
+  line-height: 40px;
+ }
+
+thead th.id {
+  width: 50px;
+}
+
+thead th.state {
+  width: 100px;
+}
+
+thead th.button {
+  width: 60px;
+}
+
+tbody td.button, tbody td.state {
+  text-align: center;
+}
+tbody tr td,
+tbody tr th {
+  border-bottom: 1px solid #ccc;
+  transition: all 0.8s;
+}
+tbody tr.done td,
+tbody tr.done th {
+  background: #EEEEEE	;
+  color: #bbb;
+}
+tbody tr:hover td,
+tbody tr:hover th {
+background: #FF9999;
+}
+button {
+  border: none;
+  border-radius: 25px;
+  line-height: 24px;
+  padding: 2 8px;
+  background: #FF6666;
+  color: #fff;
+  cursor: pointer;
+}
+
+}
+
+/* スマホよりも大きい用 */
+
+@media screen and (min-width: 640px) {
+  #app h1 {
+    width: 260px;
+    background: linear-gradient(transparent 70%,#FF3333 );
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead th {
+    border-bottom: 2px solid #FF6666; 
+    color: #FF6666;
+    
+   }
+  
+   th {
+    padding: 0 8px;
+    line-height: 40px;
+   }
+  
+  
+  thead th.id {
+    width: 50px;
+  }
+  thead th.menu ,
+  thead th.state ,
+  thead th.button {
+    width: 100px;
+  }
+  
+  tbody td.button, tbody td.state {
+    text-align: center;
+  }
+  tbody tr td,
+  tbody tr th {
+    border-bottom: 1px solid #ccc;
+    transition: all 0.8s;
+  }
+  tbody tr.done td,
+  tbody tr.done th {
+    background: #EEEEEE	;
+    color: #bbb;
+  }
+  tbody tr:hover td,
+  tbody tr:hover th {
+  background: #FF9999;
+  }
+  
+  form input {
+    width: 350px;
+  }
+
+  button {
+    border: none;
+    border-radius: 25px;
+    line-height: 24px;
+    padding: 2 8px;
+    background: #FF6666;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+}
