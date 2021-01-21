@@ -22,5 +22,6 @@
   "background-color": "#6633FF",
   "theme_color": "#6633FF",
   "display": "standalone",
+  "Scope": "/Muscle-memo/",
   "start_url": "/"
 }
