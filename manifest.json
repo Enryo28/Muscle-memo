@@ -23,5 +23,5 @@
   "theme_color": "#6633FF",
   "display": "standalone",
   "Scope": "/Muscle-memo/",
-  "start_url": "index.html"
+  "start_url": "/"
 }
