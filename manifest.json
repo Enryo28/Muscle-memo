@@ -16,13 +16,12 @@
       "sizes": "180x180",
       "type": "image/png"
     }
-
   ],
   "name": "Muscle memo",
   "background-color": "#6633FF",
   "theme_color": "#6633FF",
   "display": "standalone",
-  "scope": "/debug-enryo/",
+  "scope": "/",
   "start_url": "./index.html",
   "splash_pages": null
 }
